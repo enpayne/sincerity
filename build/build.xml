@@ -6,7 +6,7 @@
 
 	<property name="root" location="${basedir}/.." />
 	
-	<property file="${root}/build/private.properties" />
+	<!--	<property file="${root}/build/custom.properties" />-->
 	<property file="${root}/build/custom.properties" />
 
 	<property name="component.source" value="${root}/components/${component}/source" />
@@ -42,7 +42,7 @@
 	<property name="distribution.eclipsePlugin" value="${distribution}/eclipse-plugin" />
 	<property name="distribution.agent" value="${distribution}/firewall-friendly-agent" />
 
-	<taskdef resource="com/threecrickets/creel/ant/antlib.xml" uri="antlib:com.threecrickets.creel.ant" classpath="${dependencies}/libraries/jars/com.threecrickets.creel/creel/${creel.version}/creel.jar" />
+	<taskdef resource="com/threecrickets/creel/ant/antlib.xml" uri="antlib:com.threecrickets.creel.ant" classpath="${dependencies}/libraries/jars/com.threecrickets.creel/creel/1.0.0/creel.jar" />
 	<taskdef uri="antlib:org.vafer.jdeb.ant" resource="org/vafer/jdeb/ant/antlib.xml">
 		<classpath>
 			<pathelement location="${dependencies.jars}/org.vafer.jdeb/jdeb/${jdeb.version}/jdeb.jar" />
@@ -77,18 +77,17 @@
 			<module group="com.threecrickets.scripturian" name="scripturian" version="1.1+" />
 			<module group="com.threecrickets.jvm" name="json-jvm" version="2.0+" />
 			<module group="com.threecrickets.creel" name="creel" version="1.0.1+" />
-			<module group="org.apache.commons" name="commons-vfs" version="1.0+" />
-			<module group="org.apache.commons" name="commons-logging" version="1.1+" />
-			<module group="org.apache.ivy" name="ivy" version="2.4.0+" />
+			<module group="commons-vfs" name="commons-vfs" version="1.0+" />
+			<module group="org.apache.ivy" name="ivy" version="2.4.0" />
 			<module group="org.jsoup" name="jsoup" version="1.8+" />
 			<!-- <module group="org.junit" name="junit" version="4.12+" /> -->
 			<module group="org.mozilla" name="rhino" version="1.7+" />
-			<module group="jline" name="jline" version="2.13+" />
+			<module group="jline" name="jline" version="2.14.2" />
 			
 			<!-- For compilation only -->
 			<module group="org.apache.ant" name="ant" version="1.8+" /> <!-- Note: When invoking Ant through the Maven Ant plugin we cannot use the includeAntRuntime attributes in the javac task -->
 			<module group="org.apache.logging.log4j" name="log4j-api" version="2.0+" />
-			<module group="org.apache.logging.log4j" name="log4j-core" version="2.0+" />
+			<module group="org.apache.logging.log4j" name="log4j-core" version="2.6" />
 			<module group="org.mongodb" name="mongodb-driver" version="3.1+" />
 			<module group="org.mongodb" name="mongodb-driver-core" version="3.1+" />
 			<module group="org.mongodb" name="bson" version="3.1+" />
