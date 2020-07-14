@@ -51,7 +51,9 @@
 		<dependency>
 			<groupId>org.jruby</groupId>
 			<artifactId>jruby-standalone</artifactId>
-			<version>[9.1,9.2)</version>
+			<version>9.1.2.0</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/local-maven-repo/jruby-standalone-9.1.2.0.jar</systemPath>
 		</dependency>
 	</dependencies>
 

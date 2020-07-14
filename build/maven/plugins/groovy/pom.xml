@@ -51,7 +51,9 @@
 		<dependency>
 			<groupId>org.codehaus.groovy</groupId>
 			<artifactId>groovy-indy</artifactId>
-			<version>[2.4,2.5)</version>
+			<version>2.4.7</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/local-maven-repo/groovy-indy-2.4.7.jar</systemPath>
 		</dependency>
 	</dependencies>
 

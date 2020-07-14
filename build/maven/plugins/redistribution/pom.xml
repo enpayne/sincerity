@@ -51,7 +51,9 @@
 		<dependency>
 			<groupId>com.izforge</groupId>
 			<artifactId>izpack-standalone-compiler</artifactId>
-			<version>[4.3,4.4)</version>
+			<version>4.3.5</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/local-maven-repo/izpack-standalone-compiler-4.3.5.jar</systemPath>
 		</dependency>
 	</dependencies>
 

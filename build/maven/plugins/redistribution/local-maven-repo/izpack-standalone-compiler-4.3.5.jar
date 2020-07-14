@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>Three Crickets Repository</title>
+</head>
+<body>
+<h2>Three Crickets Repository</h2>
+<p>Welcome! You seem to be accessing this Maven-style software repository with a web browser, which is not the best way to use it.</p>
+<p>Please see the main site at <b>http://threecrickets.com/repository/</b> for detailed instructions.</p>
+<hr/>
+<pre>
+<a href="../">../</a>
+<a href="izpack-standalone-compiler-4.3.5.jar">izpack-standalone-compiler-4.3.5.jar</a>
+<a href="izpack-standalone-compiler-4.3.5.jar.md5">izpack-standalone-compiler-4.3.5.jar.md5</a>
+<a href="izpack-standalone-compiler-4.3.5.jar.sha1">izpack-standalone-compiler-4.3.5.jar.sha1</a>
+<a href="izpack-standalone-compiler-4.3.5.pom">izpack-standalone-compiler-4.3.5.pom</a>
+<a href="izpack-standalone-compiler-4.3.5.pom.md5">izpack-standalone-compiler-4.3.5.pom.md5</a>
+<a href="izpack-standalone-compiler-4.3.5.pom.sha1">izpack-standalone-compiler-4.3.5.pom.sha1</a>
+</pre>
+</body>
+</html>

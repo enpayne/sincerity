@@ -51,7 +51,9 @@
 		<dependency>
 			<groupId>com.tanukisoftware</groupId>
 			<artifactId>wrapper-base</artifactId>
-			<version>[3.5,3.6)</version>
+			<version>3.5.29</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/local-maven-repo/wrapper-base-3.5.29.jar</systemPath>
 		</dependency>
 	</dependencies>
 

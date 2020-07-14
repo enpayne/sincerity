@@ -61,7 +61,7 @@
 		<dependency>
 			<groupId>com.threecrickets.sincerity.library</groupId>
 			<artifactId>sincerity-mongodb</artifactId>
-			<version>[2.1,2.2)</version>
+			<version>3.0.1</version>
 		</dependency>
 	</dependencies>
 
